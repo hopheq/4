@@ -1,0 +1,14 @@
+package com.evilcorp;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] x = new int[100];
+        for (int i = 0; i < x.length; i++) {
+            x[i] = (x.length - 1) - i;
+        }
+        for (int i = 0; i < x.length; i++) {
+            System.out.println("x[" + i + "] = " + x[i]);
+
+        }
+    }
+}
